@@ -11,6 +11,7 @@ const SingleContent = ({
   media_type,
   vote_average,
 }) => {
+  const year = new Date(date);
   return (
     <div className="media">
       <Badge
@@ -24,8 +25,8 @@ const SingleContent = ({
       />
       <b className="title">{title}</b>
       <span className="subtitle">
-        {media_type === "tv" ? "TV Series" : "Movie"}
-        <span className="subtitle">{date}</span>
+        {media_type === "tv" ? "TV Series" : "Movie" }
+        <span className="subtitle">{year.getFullYear()}</span>
       </span>
     </div>
   );
