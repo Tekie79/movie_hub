@@ -89,6 +89,7 @@ export default function ContentModal({ children, media_type, id }) {
           {content && (
             <div className={classes.paper}>
               <div className="ContentModal">
+                  <i className="closeIcon" onClick={handleClose}>&times;</i>
                 <img
                   src={
                     content.poster_path

@@ -63,6 +63,13 @@
 .ContentModal__description::-webkit-scrollbar {
   display: none;
 }
+.closeIcon {
+  position: absolute;
+  right: 3.8%;
+  top: 7.5%;
+  color: rgb(236, 236, 236);
+  cursor: pointer;
+}
 
 @media (min-width: 835px) {
   .ContentModal__landscape {
@@ -87,5 +94,9 @@
   }
   .ContentModal__description {
     font-size: 22px;
+  }
+  .closeIcon {
+    right: 4.8%;
+    top: 7.8%;
   }
 }
