@@ -65,8 +65,8 @@
 }
 .closeIcon {
   position: absolute;
-  right: 3.8%;
-  top: 7.5%;
+  right: 3.3%;
+  top: 7.6%;
   color: rgb(236, 236, 236);
   cursor: pointer;
 }
@@ -96,7 +96,7 @@
     font-size: 22px;
   }
   .closeIcon {
-    right: 4.8%;
-    top: 7.8%;
+    right: 4.3%;
+    top: 7.6%;
   }
 }

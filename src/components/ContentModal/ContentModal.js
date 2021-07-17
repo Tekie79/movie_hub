@@ -13,6 +13,7 @@ import {
 import { Button } from "@material-ui/core";
 import YoutubeIcon from "@material-ui/icons/YouTube";
 import Carousel from "./Carousel/Carousel";
+import CancelPresentationIcon from '@material-ui/icons/CancelPresentation';
 
 const useStyles = makeStyles((theme) => ({
   modal: {
@@ -89,7 +90,7 @@ export default function ContentModal({ children, media_type, id }) {
           {content && (
             <div className={classes.paper}>
               <div className="ContentModal">
-                  <i className="closeIcon" onClick={handleClose}>&times;</i>
+                  <CancelPresentationIcon className="closeIcon" onClick={handleClose} />
                 <img
                   src={
                     content.poster_path
