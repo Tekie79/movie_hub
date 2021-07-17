@@ -49,6 +49,7 @@ const Genres = ({
         selectedGenres.map((genre) => {
           return (
             <Chip
+              key={genre.id}
               id={genre.id}
               label={genre.name}
               style={{ margin: 2 }}
@@ -63,6 +64,7 @@ const Genres = ({
         genres.map((genre) => {
           return (
             <Chip
+              key={genre.id}
               id={genre.id}
               label={genre.name}
               style={{ margin: 2 }}

@@ -119,7 +119,7 @@ export default function ContentModal({ children, media_type, id }) {
                     )
                   </span>
                   {content.tagline && (
-                    <i className="tagline">{content.tagline}</i>
+                    <i className="taSgline">{content.tagline}</i>
                   )}
                   <span className="ContentModal__description">
                     {content.overview}
